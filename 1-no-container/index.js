@@ -1,3 +1,4 @@
+// use the node `cluster` functionality in order to get maximum usage out of a multi-core server. See Readme
 const cluster = require('cluster');
 const http = require('http');
 const numCPUs = require('os').cpus().length;

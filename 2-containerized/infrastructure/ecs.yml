@@ -1,3 +1,5 @@
+# chứa mã cấu hình cơ sở hạ tầng AWS CloudFormation (json OR yaml) mà bạn sẽ sử dụng ở bước tiếp theo
+# Can use CDK (Cloud Development Kit) (JS, Java, Python) to implement Infrastructure as Code (IaC) on AWS
 AWSTemplateFormatVersion: '2010-09-09'
 Parameters:
   DesiredCapacity:
